@@ -1,0 +1,52 @@
+[
+  {
+    "name":"Alberta",
+    "Population": "4.357 Million (2019)",
+    "Capital":"Edmonton"
+  },
+  {
+    "name":"British Columbia",
+    "Population": "5.071 Million (2019)",
+    "Capital":"Victoria"
+  },
+  {
+    "name":"Manitoba",
+    "Population": "1.369 Million (2019)",
+    "Capital":"Winnipeg "
+  },
+  {
+    "name":"New Brunswick",
+    "Population": "781,476 (2019)",
+    "Capital":"Fredericton"
+  },
+  {
+    "name":"Newfoundland and Labrador",
+    "Population": "521,542 (2019)",
+    "Capital":"St. John's"
+  },
+  {
+    "name":"Nova Scotia",
+    "Population": "97,1395 Million (2019)",
+    "Capital":"Halifax"
+  },
+  {
+    "name":"Ontario",
+    "Population": "14.57 Million",
+    "Capital":"Toronto"
+  },
+  {
+    "name":"Prince Edward Island",
+    "Population": "156,947 (2019)",
+    "Capital":"Charlottetown"
+  },
+  {
+    "name":"Quebec",
+    "Population": "8.485 Million (2019)",
+    "Capital":"Montreal"
+  },
+  {
+    "name":"Saskatchewan",
+    "Population": "1.174 Million (2019)",
+    "Capital":"Regina"
+  }
+]
