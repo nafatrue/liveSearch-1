@@ -48,7 +48,7 @@ $(document).ready(function(){
    $.each(data, function(key, value){
     if (value.name.search(expression) != -1 || value.name.search(expression) != -1)
     {
-     $('#result').append('<li class="list-group-item link-class">" '+value.name+'|'+value.Capital+' | <span class="text-muted">'+value.Population+'</span></li>');
+     $('#result').append('<li class="list-group-item link-class">" '+value.name+'|'+value.category+' | <span class="text-muted">'+value.url+'</span></li>');
     }
    });   
   });
