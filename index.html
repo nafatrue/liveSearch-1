@@ -21,7 +21,7 @@
   }
   img[src="null"] {
    display: none;
-  } 
+  }  
   </style>
  </head>
  <body>
@@ -44,6 +44,11 @@ new ClipboardJS(".btn");
 $(document).ready(function () {
   $.ajaxSetup({ cache: true });
   $("#search").keyup(function () {
+      if ($(this).val().length == 0) {
+    // Hide the element
+    $('.list-group').hide();
+  } else {
+    $('.list-group').show();
     $("#result").html("");
     $("#state").val("");
     var searchField = $("#search").val();
@@ -74,9 +79,9 @@ $(document).ready(function () {
             );
           }
         }
-
       });
     });
+  }
   });
 });
 
