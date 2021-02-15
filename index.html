@@ -56,6 +56,11 @@ $(document).ready(function(){
      $('#result').append('<li class="list-group-item link-class"><img src='+value.logo+' width="20px;"/> '+value.name+' | '+value.category+' </li>');
      $('#result').append('<li class="list-group-item link-class"><button class="btn" data-clipboard-text="'+value.url+'">copy</button></li>');
     }
+    else if (value.category.search(expression) != -1 || value.category.search(expression) != -1)
+    {
+     $('#result').append('<li class="list-group-item link-class"><img src='+value.logo+' width="20px;"/> '+value.name+' | '+value.category+' </li>');
+     $('#result').append('<li class="list-group-item link-class"><button class="btn" data-clipboard-text="'+value.url+'">copy</button></li>');
+    }
    });   
   });
  });
