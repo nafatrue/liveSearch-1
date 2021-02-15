@@ -5,6 +5,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
   <style>
   #result {
    position: absolute;
@@ -52,7 +53,7 @@ $(document).ready(function(){
     if (value.name.search(expression) != -1 || value.name.search(expression) != -1)
     {
      $('#result').append('<li class="list-group-item link-class"><img src='+value.logo+' width="20px;"/> '+value.name+' | '+value.category+' </li>');
-     $('#result').append('<li class="list-group-item link-class"><span class="text-muted">'+value.url+'</span></li>');
+     $('#result').append('<li class="list-group-item link-class"><span id="foo" class="text-muted" value='+value.url+'>'+value.url+'</span><button class="btn" data-clipboard-target="#foo"><img class="clippy" src="//clipboardjs.com/assets/images/clippy.svg" width="13" alt="Copy to clipboard"/></button></li>');
     }
    });   
   });
