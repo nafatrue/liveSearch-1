@@ -54,7 +54,7 @@ $(document).ready(function () {
           value.name.search(expression) != -1 ||
           value.name.search(expression) != -1
         ) {
-          if (value.category === "XXX" || value.category === "Religious") {
+          if (value.category === "XXX" || value.category === "Religious" || value.name === "EWTN" || value.name === "EWTN Canada" || value.name === "EWTN katholisches TV" || value.name === "Sat 7 Arabic" || value.name === "Sat 7 Kids" || value.name === "Sat 7 Pars" || value.name === "Sat 7 Türk") {
             $("#result").append("");
           } else {
             $("#result").append(
